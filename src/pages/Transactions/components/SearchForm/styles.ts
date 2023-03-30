@@ -8,9 +8,35 @@ export const SearchFormContainer = styled.form`
     flex: 1;
     border-radius: 6px;
     border: 0;
-    background: ${props => props.theme['gray-900']};
-    color: ${props => props.theme['gray-300']};
+    background: ${(props) => props.theme["gray-900"]};
+    color: ${(props) => props.theme["gray-300"]};
 
     padding: 1rem;
   }
-`
+
+  &::placeholder {
+    color: ${(props) => props.theme["gray-500"]};
+  }
+
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 0.75rem;
+
+    border: 0;
+    border: 2px solid ${(props) => props.theme["green-300"]};
+    border-radius: 6px;
+    background: transparent;
+    color: ${(props) => props.theme["green-500"]};
+    font-weight: bold;
+
+    &:hover {
+      border-color: ${(props) => props.theme["green-500"]};
+      background: ${(props) => props.theme["green-500"]};
+      color: ${(props) => props.theme.white};
+      transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+    }
+  }
+`;

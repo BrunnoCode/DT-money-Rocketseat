@@ -12,8 +12,8 @@ export function Transactions() {
     <div>
       <Header />
       <Summary />
-      <SearchForm />
       <TransactionContainer>
+        <SearchForm />
         <TransactionTable>
           <tbody>
             <tr>
