@@ -6,7 +6,7 @@
       "type": "income",
       "category": "Venda",
       "price": 14000,
-      "createdAt": "2023-04-03T17:27:00.168Z"
+      "createdAt": "2023-12-03T17:27:00.168Z"
     },
     {
       "id": 2,
@@ -14,12 +14,17 @@
       "type": "outcome",
       "category": "Alimentação",
       "price": 50,
+<<<<<<< HEAD
       "createdAt": "2023-04-03T17:30:00.168Z"
+=======
+      "createdAt": "2023-04-22T17:30:00.168Z"
+>>>>>>> 158942cbc5a42c192da0a81d64977e447cb77a38
     },
     {
       "id": 3,
       "description": "Netflix",
       "type": "outcome",
+<<<<<<< HEAD
       "category": "Ocio",
       "price": 20,
       "createdAt": "2023-04-03T17:30:00.168Z"
@@ -31,6 +36,19 @@
       "category": "Educação",
       "price": 1198,
       "createdAt": "2023-04-03T17:30:00.168Z"
+=======
+      "category": "ocio",
+      "price": 20,
+      "createdAt": "2023-05-15T18:40:00.168Z"
+    },
+    {
+      "id": 4,
+      "description": "Nómina",
+      "type": "income",
+      "category": "Ocupação Laboral",
+      "price": 7000,
+      "createdAt": "2023-04-23T17:30:00.168Z"
+>>>>>>> 158942cbc5a42c192da0a81d64977e447cb77a38
     }
   ]
 }
