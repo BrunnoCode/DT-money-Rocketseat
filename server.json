@@ -47,6 +47,14 @@
       "type": "income",
       "createdAt": "2023-04-19T20:00:23.604Z",
       "id": 6
+    },
+    {
+      "description": "Picole",
+      "category": "Alimentação",
+      "price": 2,
+      "type": "outcome",
+      "createdAt": "2023-04-20T18:39:53.160Z",
+      "id": 7
     }
   ]
 }
